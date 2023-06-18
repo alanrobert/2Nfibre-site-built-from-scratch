@@ -166,6 +166,22 @@ h1 {
 
 /* Navigation */
 
+/* .current:hover {
+    border-bottom: solid 1px deepskyblue;
+    padding: 1em;
+    width: inherit;
+}
+
+.current-pseudo:hover:after {
+    content: '';
+    display: block;
+    background-color: deepskyblue;
+    width: 100%;
+    height: 10px;
+    margin-left: 5px;
+    margin-bottom: -10px; 
+} */
+
 .header > * {
     grid-column: 2 / -2;
 }
@@ -173,7 +189,6 @@ h1 {
 .header {
     background-color:aliceblue;
     font-weight: 500;
-    border: solid 1px red;
 }
 
 .header-content {
@@ -276,7 +291,7 @@ h1 {
     margin-left: auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
 
     .open-nav,
     .close-nav {
@@ -295,12 +310,37 @@ h1 {
     .nav-link {
         font-size: 1rem;
         margin-left: 10px;
+        /* padding: 31px 0px; */
+        /* position: relative; */
     }
+
+    /* .nav-link:hover {
+        opacity: 1;
+    }
+      
+      .nav-link::after {
+        transition: 300ms;
+        height: 5px;
+        content: "";
+        position: absolute;
+        background-color: rgb(3, 85, 148);
+    }
+    
+    .nav-link-grow-up::after {
+        height: 0%;
+        width: 100%;
+        bottom: 0px;
+        margin-left: -50px;
+    }
+      
+    .nav-link-grow-up:hover::after {
+        height: 3px;
+    } */
 
     .main-nav {
         width: 50%;
         justify-content: space-between;
-        margin-left: 8%;;
+        margin-left: 8%;
         padding: 0;
     }
 
@@ -314,6 +354,7 @@ h1 {
         width: 100%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     } 
 
     .secondary-nav {
@@ -326,7 +367,7 @@ h1 {
         margin-top: 0;
     }
 
-    .header-home .nav {
+    .header-home, .nav {
         background: transparent;
     }
 }
@@ -374,24 +415,38 @@ h1 {
 
 /* ===================== 
           Hero
-   ===================== */
+===================== */
 
-   .hero {
+.hero {
     background-image: url("/Img/christopher-burns-8KfCR12oeUM-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    padding: 10em;
-   }
+    padding: 10em 0;
+}
 
-   .hero > * {
-    grid-column: 2 / -2;
-   }
+.hero > * {
+    grid-column: 2 / -2;    
+}
 
-   /* .hero-img {
-    width: 100%;
-    object-position: center;
-    object-fit: cover;
-   } */
+/* @media (max-width: 649px) {
+    .hero {
+        padding: 9em 0;
+    }
+} */
+
+@media (min-width: 650px) {
+    .hero {
+        padding: 12em 0;
+    }
+}
+
+@media (min-width: 1080px) {
+    .hero {
+        padding: 14em 0;
+    }
+}
+
+   
 
 
 /* ===================== 
@@ -420,6 +475,34 @@ h1 {
 
 .col-3 {
     background-image: url("/Img/christopher-burns-8KfCR12oeUM-unsplash.jpg")
+}
+
+@media (min-width: 650px) {
+    .category {
+        display: grid;
+    }
+
+    .col {
+        padding: 5em;
+    }
+
+    .col-1 {
+        grid-column: 2 / 3;
+    }
+
+    .col-2 {
+        grid-column: 3 / 4;
+    }
+
+    .col-3 {
+        grid-column: 4 / 5;
+    }
+}
+
+@media (min-width: 860px) {
+    .col {
+        padding: 6em;
+    }
 }
 
    /* .category-section {
