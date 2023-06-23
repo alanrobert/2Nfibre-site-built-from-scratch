@@ -10,14 +10,16 @@
     <title>2NFibre</title>
 </head>
 <body>
-    <header class="header main-grid">
+    <header class="header main-grid header-home">
         <div class="header-content">
             <a href="index.html" class="logo-link">
                 <img class="nav-logo" src="/Img/COLOUR-LOGO-LARGE TRANSPARENT.png" alt="2NFibre logo">
             </a>
-            <nav class="nav desktop-nav">
+            <button class="open-nav" id="open-nav" aria-label="open navagation">&#9776;</button>
+            <nav class="nav desktop-nav" id="nav">
+                <button class="close-nav" id="close-nav" aria-label="close navigation">&times;</button>
                 <ul class="main-nav nav-list">
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a href="/index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
@@ -30,17 +32,44 @@
                         <a href="/careers.html" class="nav-link">Careers</a>
                     </li>
                 </ul>
-                <ul class="secondary-nav nav-list">
+                <ul class="secondary-nav nav-list secondary-nav-list">
                     <li class="nav-item-secondary">
-                        <a href="/about.html" class="nav-link-secondary">About</a>
+                        <a href="/about.html" class="nav-link secondary-nav-link secondary-current">About</a>
                     </li>
                     <li class="nav-item-secondary">
-                        <a href="/contact.html" class="nav-link-secondary">Contact</a>
+                        <a href="/contact.html" class="nav-link secondary-nav-link">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <footer class="footer main-grid">
+        <div class="footer-content">
+            <img class="footer-logo" src="img/COLOUR-LOGO-LARGE TRANSPARENT.png" alt="2NFibre Logo">
+        </div>
+        <div class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="nav-item footer-nav-item">Home</li>
+                <li class="nav-item footer-nav-item">About</li>
+                <li class="nav-item footer-nav-item">Contact</li>
+                <li class="nav-item footer-nav-item">Another Link</li>
+                <li class="nav-item footer-nav-item">One More Link</li>
+            </ul>
+        </div>
+        <div class="footer-text">
+            <p class="footer-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis cupiditate. Praesentium odio nihil fuga dolore ad at, impedit maiores libero provident minima laboriosam enim eos, cupiditate pariatur ipsum sequi?
+            </p>
+        </div>
+    </footer>
+    <div class="footer-bottom-bar main-grid">
+        <div class="socials">Follow us
+            <a href="#" class="social-icon nav-link">(LI)</a>
+            <a href="#" class="social-icon nav-link">(TW)</a>
+        </div>
+        <div class="footer-copyright">2NFibre 2023</div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
