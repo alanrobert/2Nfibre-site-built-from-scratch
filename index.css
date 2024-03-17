@@ -475,7 +475,7 @@ ul li ul li {
 ===================== */
 
 .hero {
-    background-image: url("./Img/christopher-burns-8KfCR12oeUM-unsplash.jpg");
+    background-image: url("/Img/christopher-burns-8KfCR12oeUM-unsplash.jpg");
     background-size: cover;
     background-position: center;
     padding: 10em 0;
