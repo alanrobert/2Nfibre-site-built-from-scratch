@@ -475,7 +475,7 @@ ul li ul li {
 ===================== */
 
 .hero {
-    background-image: url("/Img/christopher-burns-8KfCR12oeUM-unsplash.jpg");
+    background-image: url("./Img/christopher-burns-8KfCR12oeUM-unsplash.jpg");
     background-size: cover;
     background-position: center;
     padding: 10em 0;
@@ -514,15 +514,15 @@ ul li ul li {
 }
 
 .col-1 {
-    background-image: url("/Img/scott-blake-x-ghf9LjrVg-unsplash.jpg")
+    background-image: url("./Img/scott-blake-x-ghf9LjrVg-unsplash.jpg")
 }
 
 .col-2 {
-    background-image: url("/Img/tolu-olubode-PlBsJ5MybGc-unsplash.jpg")
+    background-image: url("./Img/tolu-olubode-PlBsJ5MybGc-unsplash.jpg")
 }
 
 .col-3 {
-    background-image: url("/Img/christopher-burns-8KfCR12oeUM-unsplash.jpg")
+    background-image: url("./Img/christopher-burns-8KfCR12oeUM-unsplash.jpg")
 }
 
 .col-4, 
@@ -547,15 +547,15 @@ ul li ul li {
     }
 
     .col-4 {
-        background-image: url("/Img/christopher-burns-8KfCR12oeUM-unsplash.jpg")
+        background-image: url("./Img/christopher-burns-8KfCR12oeUM-unsplash.jpg")
     }
     
     .col-5 {
-        background-image: url("/Img/scott-blake-x-ghf9LjrVg-unsplash.jpg")
+        background-image: url("./Img/scott-blake-x-ghf9LjrVg-unsplash.jpg")
     }
     
     .col-6 {
-        background-image: url("/Img/tolu-olubode-PlBsJ5MybGc-unsplash.jpg")
+        background-image: url("./Img/tolu-olubode-PlBsJ5MybGc-unsplash.jpg")
     }
 
     .col-1 {
